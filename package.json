@@ -1,14 +1,32 @@
 {
-  "name": "plugin-manager",
-  "version": "0.8.3",
-  "description": "A plugin management library for node.js",
+  "name": "plugout",
+  "version": "1.0.0",
+  "author": "NAU Enterprise Web Team <ITS-EIS-EWT@xdl.nau.edu>",
   "contributors": [
     {
       "name": "John Hutchison",
       "email": "john.hutchison@nau.edu"
+    },
+    {
+      "name": "Ahsan Imam",
+      "email": "ahsan.imam@nau.edu"
     }
   ],
-  "homepage": "https://bitbucket.org/nauewt/plugin-manager",
+  "description": "A plugin management library for node.js",
+  "homepage": "https://github.com/NorthernArizonaUniversity/plugout",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NorthernArizonaUniversity/plugout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NorthernArizonaUniversity/plugout/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ],
   "engines": {
     "node": ">= 0.6.x"
   },
