@@ -17,7 +17,7 @@ merge = (obj, sources...) ->
   return obj
 
 
-class PluginManager
+class Plugout
 
   constructor: (@context, @pluginPath, loadPlugins = {}) ->
     ### Creates a new plugin manager object ###
@@ -180,4 +180,4 @@ class PluginManager
     return pl?.provides?[name]?.apply pl, args
 
 
-module.exports.PluginManager = PluginManager
+module.exports.Plugout = Plugout
